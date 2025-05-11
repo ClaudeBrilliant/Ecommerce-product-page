@@ -94,16 +94,58 @@ a{
         font-size: 40px;
         font-weight: 700;
         color: black;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 
-    .original-price{
+    .current-price{
+        font-size: 50px;
+        font-weight: 700;
+        color:500px;
+        
+    }
+
+    .discount{
         font-size: 20px;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    .original-price {
+        font-size: 30px;
         font-weight: 400;
         color: gray;
         text-decoration: line-through;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 
     .lower-right{
         display: flex;
         gap: 20px;
+        padding-top: 50px;
+    }
+
+    .lower-right > button{
+        padding: 20px 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: hsl(26 100%, 55%);
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        cursor: pointer;
+    }
+
+    .quantity{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        border: 1px solid gray;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: hsl(220, 14%, 75%);
     }
