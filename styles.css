@@ -1,5 +1,5 @@
 body{
-    padding: 0px 100px;
+    padding: 0px 200px;
     font-family: 'Arial', sans-serif;
     background-color: hsl(25, 100%, 94%);
 }
@@ -16,6 +16,7 @@ nav{
     gap: 20px;
     list-style: none;
     color: gray;
+    font-size: 20px;
 }
 
 a{
@@ -45,10 +46,10 @@ a{
   }
 
   .image-container > img{
-    width: 600px;
+    width:580px;
     height: 600px;
-    border-radius: 10px;
-    padding-bottom: 20px;
+    border-radius: 20px;
+    padding-bottom: 40px;
   }
 
   .thumbnails{
@@ -63,14 +64,18 @@ a{
         cursor: pointer;
     }
 
+    .thumbnails img:first-child {
+        border: 3px solid orange;
+      }
+      
     .right-body{
         display: flex;
         flex-direction: column;
-        gap: 40px;
+       
     }
 
-    .product-detalis> h1{
-        font-size: 500px;
+    .product-details> h1{
+        font-size: 80px;
         font-weight: 700;
         color: black;
     }
@@ -80,7 +85,7 @@ a{
         color: gray;
     }
     .product-details > p{
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 400;
         color: gray;
     }
@@ -89,6 +94,7 @@ a{
         display: flex;
         gap: 20px;
         align-items: center;
+        padding-bottom: 20px;
     }
     .price > h1{
         font-size: 40px;
@@ -117,10 +123,9 @@ a{
     .original-price {
         font-size: 30px;
         font-weight: 400;
-        color: gray;
+        color: rgb(121, 108, 108);
         text-decoration: line-through;
-        padding-bottom: 50px;
-        margin-bottom: 50px;
+        margin-top: 20px;
     }
 
     .lower-right{
@@ -135,9 +140,10 @@ a{
         border: none;
         background-color: hsl(26 100%, 55%);
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 800;
         color: black;
         cursor: pointer;
+        width: 400px;
     }
 
     .quantity{
@@ -148,4 +154,6 @@ a{
         padding: 10px 20px;
         border-radius: 10px;
         background-color: hsl(220, 14%, 75%);
+        width: 200px;
+        justify-content: space-between;
     }
